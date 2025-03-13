@@ -18,6 +18,18 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <distributionManagement>
+   <repository>
+      <id>nexus</id>
+      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-group-repo/</url>
+   </repository>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-group-repo/</url>
+   </snapshotRepository>
+</distributionManagement>
+
   <build>
     <pluginManagement>
       <plugins>
