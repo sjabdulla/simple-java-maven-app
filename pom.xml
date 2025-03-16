@@ -22,11 +22,11 @@
   <distributionManagement>
    <repository>
       <id>nexus</id>
-      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-group-repo/</url>
+      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-hosted-repo/</url>
    </repository>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-group-repo/</url>
+      <url>http://nexus-server-service.nexus.svc.cluster.local:8081/repository/myorg-maven-hosted-repo/</url>
    </snapshotRepository>
 </distributionManagement>
 
